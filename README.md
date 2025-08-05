@@ -1,43 +1,37 @@
 # black_wordlist_generator
 
-🔧 Step 1: Clone the Repository
-
-In your terminal, go to the folder where you want to download it and run:
-
+Step 1:
 git clone https://github.com/USERNAME/black_wordlist_generator.git
 
-👉 Replace USERNAME with the actual GitHub username.
-
-Then enter the folder:
-
+Step 2:
 cd black_wordlist_generator
 
-🔧 Step 2: Check Files
-
-Run:
-
+Step 3:
 ls
 
-You should see something like:
+Step 4:
+sudo chmod +x black_wordlist_generator
 
-black_wordlist_generator.py  README.md  ...
+Step 5: 
+sudo apt-get install python3
 
-🔧 Step 3: Install Dependencies
+Step 6:
+sudo apt-get install python3-venv -y
 
-Make sure Python 3 and pip are installed:
+Step 7:
+python3 -m venv .venv
 
-sudo apt update
-sudo apt install python3 python3-pip -y
+Step 8:
+source venv/bin/activate
 
-Install the required Python package (colorama):
+Step 9:
+pip install colorama
 
-pip3 install colorama
-
-🔧 Step 4: Run the Program
-
-Inside the repo folder, run:
-
+Step 10:
 python3 black_wordlist_generator.py
+
+Step 11:
+deactivate
 
 
 
